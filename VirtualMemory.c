@@ -1,5 +1,5 @@
 //
-//  main.c
+//  VirtualMemory.c
 //  Project2
 //
 //  Created by Liz LIn on 11/8/17.
@@ -428,16 +428,4 @@ int main(int argc, const char * argv[]) {
     with_TLB(input1_path, input2_path);
     return 0;
 }
-/*
- file path:
- 
- input1:/Volumes/LIZ/input1.txt
- input2:/Volumes/LIZ/input2.txt
- out1: /Volumes/LIZ/822267901.txt
- out2: /Volumes/LIZ/822267902.txt
- 
- 
- /Users/lizhenlin/Desktop/input0.txt
- /Users/lizhenlin/Desktop/case
- /Users/lizhenlin/Desktop/
- */
+
